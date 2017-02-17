@@ -1,7 +1,7 @@
 body {
-    font-family: 'roboto-light';
+    font-family: 'Comic Sans MS';
     height: 100vh;
-    background: radial-gradient(#3B3B3B, #0F0F0F); 
+    background: linear-gradient(#FF0000, #0000FF, #00FF00); 
 }
 
 .main_content {
@@ -26,6 +26,18 @@ body {
     font-size: 2.6em;
 }
 
+#about .section_title {
+    color: hotpink;
+}
+
+#history .section_title {
+    color: greenyellow;
+}
+
+#skills .section_title {
+    color: blue
+}
+
 .section_content {
     margin-top: 1.2%;
     font-size: 0.9em;
@@ -43,7 +55,7 @@ body {
 .header {
     position: relative;
     height: 128px;
-    background-color: #1597D8;
+    background-color: yellow;
     margin-top: -1px;
     padding-top: 5%;
     padding-left: 5%;
@@ -52,16 +64,17 @@ body {
 
 .header_caption {
     font-size: 2.7em;
-    padding-top: 3.35%;
+    padding-top: 0%;
     margin-right: 30%; 
-    color: white;   
+    color: red;   
 }
 
 .header_subcaption {
     font-size: 1.4em;
-    font-family: 'roboto-thin';
+    padding-top: 1.2%;
+    padding-left: 2%;
     margin-right: 30%;
-    color: white;       
+    color: red;       
 }
 
 .header_image {
@@ -72,19 +85,15 @@ body {
 }
 
 /* from https://www.abeautifulsite.net/how-to-make-rounded-images-with-css */
-.circular_image {
-    border-radius: 50%;
-}
 
 .history_name {
     font-size: 1.2em;
-    color: #1597D8;
-    font-family: 'roboto-light'
+    color: brown;
+    font-weight: bold;
 }
 
 .history_timeframe {
-    font-size: 0.87em;
-    font-family: 'roboto-thin'
+    font-size: 1.4em;
 }
 
 .history_description {

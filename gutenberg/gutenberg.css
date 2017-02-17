@@ -1,14 +1,21 @@
 body {
     margin-left: 7%;
     margin-right: 7%;
+    background: #F2D9BA;
 }
+
 
 h1, h2, h3 {
     text-align: center;
 }
 
-p {
+img {
+    margin: auto;
+    display: block;
+}
 
+figcaption {
+    text-align: center;
 }
 
 .fig {
