@@ -1,0 +1,17 @@
+body {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+
+}
+
+.fig {
+    margin: auto;
+    display: block;
+}
