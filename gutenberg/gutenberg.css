@@ -3,25 +3,26 @@ body {
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6, .contents, .illus {
     text-align: center;
 }
 
-p, pre {
+img, table, .fig {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, pre  {
     margin-left: 15%;
     margin-right: 15%;
 }
 
 img {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
 
 figcaption {
     text-align: center;
-}
-
-.fig {
-    margin: auto;
-    display: block;
 }
