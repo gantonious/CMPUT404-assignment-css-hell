@@ -1,0 +1,24 @@
+body {
+    font-family: 'roboto-light';
+}
+
+.section {
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.section_title {
+    font-size: 2.7em;
+}
+
+.section_content {
+    margin-top: 1%;
+}
+
+.section_right_highlight {
+    float: right;
+    top: 0px;
+}
