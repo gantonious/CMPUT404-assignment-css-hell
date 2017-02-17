@@ -1,5 +1,6 @@
 body {
-    font-family: 'roboto-light';
+    font-family: 'roboto';
+    font-weight: 300;
     height: 100vh;
     background: radial-gradient(#3B3B3B, #0F0F0F); 
 }
@@ -49,7 +50,7 @@ body {
     position: relative;
     height: 128px;
     background-color: #1597D8;
-    margin-top: -1px;
+    margin-top: -2px;
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -64,7 +65,7 @@ body {
 
 .header_subcaption {
     font-size: 1.4em;
-    font-family: 'roboto-thin';
+    font-weight: 100;    
     margin-right: 30%;
     color: white;       
 }
@@ -84,12 +85,12 @@ body {
 .history_name {
     font-size: 1.2em;
     color: #1597D8;
-    font-family: 'roboto-light'
+    font-weight: 300;
 }
 
 .history_timeframe {
     font-size: 0.87em;
-    font-family: 'roboto-thin'
+    font-weight: 100;
 }
 
 .history_description {
