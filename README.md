@@ -1,3 +1,15 @@
+Modifications
+=============
+
+For each gutenberg story, the style tag in the header of the page was removed so I could include my own custom styles.
+
+Resources Used
+==============
+
+In good.css line 18, the box-shadow rule was taken from    https://css-tricks.com/almanac/properties/b/box-shadow/
+
+In good.css line 81, making the image render as a circle was taken from https://www.abeautifulsite.net/how-to-make-rounded-images-with-css.
+
 Assignment: CSS Hell
 ====================
 
