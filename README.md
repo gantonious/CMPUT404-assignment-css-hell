@@ -1,7 +1,7 @@
 Modifications
 =============
 
-For each gutenberg story, the style tag in the header of the page was removed so I could include my own custom styles.
+For each gutenberg story, the style tag in the header of the page was removed and replaced by a link to my own CSS sheet so I could use my own custom styles.
 
 Resources Used
 ==============
